@@ -273,7 +273,7 @@ const Layout = () => {
 					</Link>
 					{(isOpen && (
 						<div>
-							{(user?.image != '' && (
+							{(user?.image != '' || user?.image != null && (
 								<img
 									className='w-[36px] border-4 border-[#C4C4C4] h-[36px] rounded-full'
 									onClick={() => setIsOpen(!isOpen)}
