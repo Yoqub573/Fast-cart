@@ -9,7 +9,7 @@ import {
 import eye from '../../../../shared/Quick View.svg'
 import stars from '../../../../shared/Frame 566.svg'
 import retur from '../../../../shared/Icon-return.svg'
-import lory from '../../../../shared/Icon-delivery.svg'
+import lory from '../../../../shared/icon-delivery.svg'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from 'swiper/modules'
 
