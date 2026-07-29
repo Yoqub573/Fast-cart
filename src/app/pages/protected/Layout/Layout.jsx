@@ -272,18 +272,7 @@ const Layout = () => {
 						</div>
 					</Link>
 					{(isOpen && (
-						<div>
-							{(user?.image != '' || user?.image != null && (
-								<img
-									className='w-[36px] border-4 border-[#C4C4C4] h-[36px] rounded-full'
-									onClick={() => setIsOpen(!isOpen)}
-									src={`https://store-api.softclub.tj/images/${user?.image}`}
-									alt=''
-								/>
-							)) || (
-								<img onClick={() => setIsOpen(!isOpen)} src={user333} alt='' />
-							)}
-						</div>
+						<img onClick={() => setIsOpen(!isOpen)} src={user333} alt='' />
 					)) || (
 						<div>
 							{localStorage.getItem('access_token') && (
