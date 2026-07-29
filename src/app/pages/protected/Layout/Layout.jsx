@@ -14,7 +14,7 @@ import faceBook from '../../../../shared/Icon-Facebook.svg'
 import twitter from '../../../../shared/Icon-Twitter.svg'
 import instagram from '../../../../shared/icon-instagram.svg'
 import linkedin from '../../../../shared/Icon-Linkedin.svg'
-import user from '../../../../shared/user.svg'
+import user333 from '../../../../shared/user.svg'
 import user22 from '../../../../shared/user2.svg'
 import fail from '../../../../shared/icon-mallbag.svg'
 import logOut from '../../../../shared/Icon-logout.svg'
@@ -281,7 +281,7 @@ const Layout = () => {
 									alt=''
 								/>
 							)) || (
-								<img onClick={() => setIsOpen(!isOpen)} src={user} alt='' />
+								<img onClick={() => setIsOpen(!isOpen)} src={user333} alt='' />
 							)}
 						</div>
 					)) || (
